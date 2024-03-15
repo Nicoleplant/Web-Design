@@ -1,0 +1,119 @@
+@font-face {
+    font-family:Brownland;
+    src: url(../brownland/Brownland.otf);
+}
+/* cancel out brpwser defaults */
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+    font-family:brownland;
+}
+header nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #cbe9df;
+}
+
+header nav .imagediv{
+height: 100%;
+padding: 10px;
+}
+
+
+header nav .imagediv img{
+    height: 100%;
+}
+
+header nav ul{
+display: flex;
+flex-grow: 1;
+list-style: none;
+height: 100px;
+}
+
+header nav ul li{
+height: 100%;
+width: 100%;
+}
+
+header nav ul li a{
+    color: #29a492;
+    text-decoration:  none;
+    font-size:30px;
+    line-height:80px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+header nav ul li a:hover{
+background-color: #f0ffff;
+}
+
+/* Main area styling*/
+
+.mainDiv{
+    display: flex;
+}
+ 
+main{
+    flex:5;
+}
+ aside{
+    flex:1;
+ }
+
+ main section{
+    display : flex;
+    width:100%;
+    max-height: 500px;
+    overflow :hidden;
+ }
+ main section div{
+    flex :1;
+ }
+ 
+.shoe img{
+    width: 100%;
+}
+
+/* Sidebar styling */
+
+aside ul{
+    list-style: none;
+    margin-top: 10px;
+
+}
+aside ul li{
+    margin-bottom: 10px;
+}
+    aside a{
+        color:black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+/* Footer Styling */
+footer{
+width: 100%;
+background-color: #cbe9df;
+display: flex;
+}
+
+footer div{
+flex:1;
+}
+
+footer nav ul{
+    list-style: none;
+    text-decoration:none ;
+}
+
+footer img{
+    width: 100%;
+}
+

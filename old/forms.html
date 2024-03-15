@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h1>Contact Form</h1>
+    
+    <form action="mailto:nicole.plant.e21546@mcast.edu.mt" method="post" enctype="text/plain">
+        
+        
+        <label for="Name">Name</label>
+        <input type="text" name="name" id="name">
+        
+        
+        <br>
+        
+        
+        <label for="Surname">Surname</label>
+        <input type="text" name="Surname" id="name">
+        
+        
+        <br>
+        
+        <label for="Email">Email</label>
+        <input type="email" name="Email" id="Email">
+        
+        <br>
+        <!-- Setting the type to password hides the password in the browser-->
+        <label for="Password">Password</label>
+        <input type="password" name="Password" id="Password">
+        
+        <br>
+        
+        <label for="Colour"> Favourite Colour</label>
+        <select type="Colour" name="Colour" id="Colour">
+            <option value="Red">Red</option>
+            <option value="Green">Green</option>
+            <option value="Blue">Blue</option>
+            
+        </select>
+        
+        <Fieldset>
+            
+            <legend>What item of clothing do you prefer to wear?</legend>
+            
+            <input type="checkbox" name="clothing" id="tshirts">
+            <label for="tshirts">T-shirts</label>
+            
+            <br>
+            
+            <input type="checkbox" name="clothing" id="hoodies">
+            <label for="hoodies">Hoodies</label>
+            
+            <br>
+            
+            <input type="checkbox" name="clothing" id="sweaters">
+            <label for="Sweaters">Sweaters</label>
+            
+        </Fieldset>
+        
+        <fieldset>
+
+            <legend>What would you bring on a deserted island?</legend>
+
+            <input type="radio" name="island" id="food">
+            <label for="food">Food</label>
+
+            </Br>
+
+            <input type="radio" name="island" id="Electronics">
+            <label for="Electronics">Electronics</label>
+            
+            </fieldset>
+
+            <button type="submit">Send Message </button>
+            <button type="reset">Cancel</button>
+        
+        
+        
+        
+    </form>
+</body>
+</html>
